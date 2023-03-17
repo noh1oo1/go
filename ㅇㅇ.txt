@@ -1,0 +1,33 @@
+<body>
+  <script>
+알림 창 출력
+    confirm("확인");
+확인 창 출력
+    alert("경고문")
+프롬프트 창에서 입력받기
+    var name = prompt ("이름을 입력하세요.", "노유리");
+  </script>
+
+    document.write("<h1>Main title</h1>");
+    function newContent() {
+    document.open();
+        document.write("<h1>Out with the old, in with the new!</h1>");
+        document.close();
+
+
+ document.write("안녕하세요");
+
+document.write("<br>"); //줄바꾸기
+
+document.write("나의 국어 점수는 "+kor+"점 입니다.");
+
+document.write("나의 최종결과는 "+result+" 입니다.<br>");
+
+ 
+    \
+    document.write("<h1>a</h1>");
+    document.write("<h2>b</h2>");
+    document.write("<h3>c</h3>");
+    document.write("<h4>d</h4>");
+    document.write("<h5>c</h5>");
+    document.write("<h1>"+a+"</h1>")

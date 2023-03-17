@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+	 	var oNumber;
+	 	var uNumber;
+	 	var dNumber;
+	 	var eNumber;
+
+ 		quest_one();
+ 		quest_two();
+ 		quest_three();
+	 	quest_for();
+
+	 	alert('모두성공!');
+
+
+		function quest_one(){ // 
+		oNumber = prompt("무슨 통신사 인가요?");
+			if (oNumber === "KT" || oNumber === "LG" || oNumber === "SK"){
+			} else{
+				alert('실패하였습니다.');
+				quest_one();
+			}
+		}
+		function quest_two(){
+		uNumber = prompt("전화 번호 앞자리를 입력하세요");
+			if( uNumber === "010") {
+			}else{
+				alert('실패하였습니다.');
+				quest_two();
+			}
+		}
+		function quest_three(){
+		dNumber = prompt("전화 번호 가운데를 입력하세요");
+			if(dNumber === "1234"){
+			}else{
+				alert('실패하였습니다.');
+				quest_three();
+		}
+	}
+	function quest_for(){
+	dNumber = prompt("전화 번호 마지막 자리를 입력하세요");
+		if(dNumber === "5678"){
+			}else{
+				alert('실패하였습니다.');
+				quest_for();
+			}
+		}
+
+	
+
+
+
+  </script>
+</body>
+</html>

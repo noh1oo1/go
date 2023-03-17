@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    // 자바 스크립트의 주석
+      // 경고 창을 출력합니다.
+     // alert('Hello JeavaScript..!'); 
+
+
+     var c = prompt("통신사 입력");
+
+if(c === "LG" || c === "KT" || c === "SKT"){
+  alert("통신사 확인");
+  var d = prompt("전화번호 가운데자리 입력");
+}
+if(d === "1234"){
+  alert("가운데자리 확인")
+  var e = prompt("전화번호 끝자리 입력");
+}
+if(e === "5678"){
+  alert("끝자리 확인");
+}
+
+else{
+  alert("확인 불가능")
+} 
+
+
+
+    var oNumber = prompt("무슨 통신사 인가요?");
+if (oNumber === "KT" || oNumber === "LG" || oNumber === "SK"){
+    var uNumber = prompt("전화 번호 앞자리를 입력하세요?");
+}
+if( uNumber === "010") {
+    var dNumber = prompt("전화 번호 가운데를 입력하세요?");
+  }
+if(dNumber === "1234"){
+    var eNumber = prompt("전화 번호 끝자리를 입력하세요?");
+  }
+if(eNumber === "5678"){
+  alert("모두 성공!"); 
+  }else{
+  alert("전화번호가 틀려요?","<br>");
+  }
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

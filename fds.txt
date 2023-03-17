@@ -1,0 +1,57 @@
+if( a < b && a !== b || a >= b||a <= b && a == b){
+
+if(a && b || c || d && f)
+if(a && 
+
+  var a = 10;
+  var b = 15;
+  if( (a < b && a !== b) || (a >= b||a <= b) && (a == b) ){
+    alert("50% 세일")
+  }
+     else{
+    confirm("세일 불가")
+    //실행문2
+
+
+  var a = prompt("나이를 쓰세요")
+  var b = prompt("구로 학생인가요?")
+    if( a == 19 && b == "구로"){
+    alert("50% 세일")
+  }
+     else{
+    confirm("세일 불가")  
+
+
+  var a = 10;
+  var b = 15;
+    if( a < b && a !== b || a >= b||a <= b && a == b)
+
+var sum = 0;
+
+  sum += 1;
+  sum += 2;
+  sum += 3;
+  sum += 4;
+  sum += 5;
+  document.write("1부터 5까지 더하면" + sum);
+
+  var i;
+  var sum = 0;
+
+  for(i = 1; i < 1001; i++) {
+    sum += i;
+  }
+  document.write("1부터 1000까지 더하면" + sum);
+
+
+  var i, i;
+
+  for ( i = 1; i <= 9; i++) {
+    document.write("<div>");
+    document.write("<h3>" + i + "단</h3>");
+  for ( j = 1; j <= 9; j++) {
+      document.write(i + " X " + j + " = " + i*j + "<br>");
+    }
+      document.write("</div>");
+    }
+
